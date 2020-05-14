@@ -5,10 +5,10 @@ Calculator = function() {
 }
 
 Calculator.prototype.add = function(number) { // function take s one number as an argument
-    if (typeof(numner) == "number") {
+    if (typeof(number) == "number") {
         this.value += number;        
     } else {
-        alert("Error")
+        alert("Error");
     }
 }
 
